@@ -38,9 +38,6 @@ def convert(input: int, roman: str=None) -> str:
 
     return convert(remainder, roman)
 
-
-
-
 if __name__ == '__main__':
     print(convert(1000))
     print(convert(1904))
