@@ -45,8 +45,6 @@ def count_distinct_sorted(l: list, k: int) -> set:
     return vals
 
 
-
-
 if __name__ == '__main__':
     print(count_distinct([1, 5, 3, 4, 2], 3))
     print(count_distinct([8, 12, 16, 4, 0, 20], 4))
